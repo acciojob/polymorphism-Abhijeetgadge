@@ -2,7 +2,7 @@ package com.driver;
 
 public class Main {
 
-    public static class Products{
+    public static class Product{
         public int product(int x, int y){return x+y;}
 
         public int product(int x, int y, int z){return x+y+z;}
@@ -12,10 +12,10 @@ public class Main {
     }
     public static void main(String[] args) {
 
-        Products p = new Products();
-        p.product(3, 4);
-        p.product(5.5, 6.6);
-        p.product(3, 5, 7);
+        Product p = new Product();
+        int a = p.product(3, 4);
+        int b = p.product(5, 6, 7);
+        double c = p.product(3.5, 5.6);
 
     }
 
