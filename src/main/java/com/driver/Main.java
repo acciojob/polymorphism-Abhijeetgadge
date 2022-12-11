@@ -5,7 +5,7 @@ public class Main {
     public static class Product{
         public int product(int x, int y){return x*y;}
 
-        public int product(int x, int y, int z){return x+y+z;}
+        public int product(int x, int y, int z){return x*y*z;}
 
         public double product(double x, double y){return x/y;}
 
@@ -14,8 +14,8 @@ public class Main {
 
         Product p = new Product();
         int a = p.product(7, 5);
-        int b = p.product(6, 7, 8);
-        double c = p.product(66.7, 57.6);
+        int b = p.product(6, 8, 10);
+        double c = p.product(5.013, 8.014);
 
     }
 
