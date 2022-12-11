@@ -7,7 +7,7 @@ public class Main {
 
         public int product(int x, int y, int z){return x*y*z;}
 
-        public double product(double x, double y){return x/y;}
+        public double product(double x, double y){return x*y;}
 
     }
     public static void main(String[] args) {
@@ -15,7 +15,8 @@ public class Main {
         Product p = new Product();
         int a = p.product(7, 5);
         int b = p.product(6, 8, 10);
-        double c = p.product(5.013, 8.014);
+        double c = p.product(5.031, 8.014);
+//        System.out.println(c);
 
     }
 
